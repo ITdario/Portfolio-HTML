@@ -7,15 +7,16 @@
         visibili all'utente, ma utili al browser durante la ricerca-->
 
 
-        <title>Portfolio HTML</title>
-        <meta http-equiv="refresh" content="1">
+        <title>Home Page-Portfolio HTML</title>
+        <meta http-equiv="refresh" content="2">
 
         <meta charset="UTF-8" />
         <meta name="author" content="Dario Ruggieri" />
         <meta name="description" content="Portfolio HTML" />
         <meta name="keywords" content="Porfolio,PCTO,informatica" />
-        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="mystyle.css" type="text/css">
        
+    
     </head>
 
 
@@ -23,21 +24,24 @@
         
         <h1>Educazione Civica</h1>
         <h2>Introduzione</h2>
-        <p style="text-align:center;">Questo sito Web nasce con l'introduzione della materia Educazione Civica, nell'anno scolastico 2020-2021, in tutte le scuole di ogni ordine e grado sul suolo italiano.
+        <p>Questo sito Web nasce con l'introduzione della materia Educazione Civica, nell'anno scolastico 2020-2021, in tutte le scuole di ogni ordine e grado sul suolo italiano.
            L'idea è quella di creare un portfolio nel quale si raccolga tutto il percorso di Educazione Civica dello studente.
            Così che alla fine del percorso scolastico sia possibile rivedere tutto il percorso dello studente.
         </p>
         <!-- <img src="media/educazione_civica_titolo.jpg" alt="Copertina home page" style="width: 300px; height: 300px; float:right"> -->
-        <a href="educazione-civica.html">Ma cos'è Educazione Civica? (clicca per saperlo)</a>
+        <a href="educazione-civica.html" class="educazione-civica">Cos'è Educazione Civica? (clicca per saperlo)</a>
 
         <h2>Progetti</h2>
-        <p style="text-align: center;">Quest'anno abbiamo trattato diversi argomenti inerenti ad Educazione Civica e abbiamo realizzato diversi progetti, per scoprirne di più visitare le pagine dedicate:</p>
-        <img src="media/costituzione-italiana.jpeg" alt="costituzione-italiana">
+        <p>Quest'anno abbiamo trattato diversi argomenti inerenti ad Educazione Civica e abbiamo realizzato diversi progetti, per scoprirne di più visitare le pagine dedicate:</p>
+        <img src="media/costituzione-italiana.jpeg" alt="costituzione-italiana" class="progetti">
         <img src="media/cittadinanza_digitale.jpg" alt="costituzione-italiana" style="height: 161px; width: 300px;">
         <img src="media/sostenibilità.png" alt="costituzione-italiana" style="height: 161px; width: 300px;">
-        <button onclick="">Costituzione</button>
-    
-    
+        <!--<input type="button" onclick="location.href='costituzione.html'" value="vai"/> -->
+        <button type="button" style="margin-left: 200px; margin-top: 10px;"><a href="costituzione.html">Costituzione</a></button>
+        <button type="button" style="margin-left: 150px;"><a href="cittadinanza-digitale.html">Cittadinanza digitale</a></button>
+        <button type="button" style="margin-left: 120px;"><a href="sostenibilità.html">Sostenibilità</a></button>
+        <!-- <button type="button"><a href="tel:+393442763830" >Chiamami!</a></button> -->
+
     </body>
 
 
